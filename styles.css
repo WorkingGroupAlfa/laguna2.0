@@ -15,6 +15,7 @@
   --radius-md: 16px;
   --bottom-nav-height: 84px;
   --beach-bg: url("assets/beach-background.png");
+  --beach-page-bg: url("assets/beach-background2.png");
 }
 
 * {
@@ -96,7 +97,7 @@ a {
 
 .app-shell::before {
   z-index: -2;
-  background: var(--beach-bg) center center / cover no-repeat;
+  background: var(--beach-bg) center top / 100% auto repeat-y;
 }
 
 .app-shell::after {
@@ -112,6 +113,10 @@ a {
 .app-shell[data-active-page="beach"]::before,
 .app-shell[data-active-page="beach"]::after {
   opacity: 1;
+}
+
+.app-shell[data-active-page="beach"]::before {
+  background-image: var(--beach-page-bg);
 }
 
 .page-stack {
@@ -499,8 +504,6 @@ h3 {
   width: auto;
   height: 66px;
   max-width: 72vw;
-  mix-blend-mode: multiply;
-  filter: saturate(1.08) contrast(1.04);
 }
 
 .visually-hidden {
@@ -737,7 +740,13 @@ h3 {
 }
 
 .menu-category-title h2::after {
-  display: none;
+  content: "";
+  position: absolute;
+  left: 0;
+  right: -68px;
+  bottom: -4px;
+  height: 5px;
+  background: var(--card);
 }
 
 .category-note {
@@ -785,8 +794,10 @@ h3 {
 }
 
 .menu-category-lead .menu-card {
-  margin-top: -2px;
+  margin-top: -4px;
+  border-top: 0;
   border-top-left-radius: 0;
+  padding-top: 16px;
 }
 
 .menu-category-lead .menu-card::before {
@@ -1293,7 +1304,7 @@ h3 {
   color: #fff;
   background:
     linear-gradient(180deg, rgba(43, 29, 17, 0.02) 0%, rgba(35, 24, 15, 0.38) 48%, rgba(28, 18, 10, 0.7) 100%),
-    var(--beach-bg) center bottom / cover no-repeat;
+    var(--beach-page-bg) center bottom / cover no-repeat;
   box-shadow: var(--shadow);
 }
 
