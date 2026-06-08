@@ -499,6 +499,8 @@ h3 {
   width: auto;
   height: 66px;
   max-width: 72vw;
+  mix-blend-mode: multiply;
+  filter: saturate(1.08) contrast(1.04);
 }
 
 .visually-hidden {
@@ -727,21 +729,15 @@ h3 {
   content: "";
   position: absolute;
   right: -68px;
-  bottom: -1px;
+  bottom: -2px;
   width: 76px;
-  height: 44px;
+  height: 46px;
   background: var(--card);
-  clip-path: path("M0 0 C18 8 30 44 76 44 L0 44 Z");
+  clip-path: path("M0 0 C18 8 30 46 76 46 L0 46 Z");
 }
 
 .menu-category-title h2::after {
-  content: "";
-  position: absolute;
-  left: 1px;
-  right: -68px;
-  bottom: -1px;
-  height: 2px;
-  background: var(--card);
+  display: none;
 }
 
 .category-note {
@@ -789,7 +785,7 @@ h3 {
 }
 
 .menu-category-lead .menu-card {
-  margin-top: -1px;
+  margin-top: -2px;
   border-top-left-radius: 0;
 }
 
@@ -1214,6 +1210,10 @@ h3 {
   font-weight: 900;
 }
 
+.dish-volume[hidden] {
+  display: none;
+}
+
 .dish-price {
   display: inline-flex;
   align-items: baseline;
@@ -1391,9 +1391,10 @@ h3 {
   grid-template-columns: repeat(3, 1fr);
   gap: 8px;
   padding: 10px 14px calc(10px + env(safe-area-inset-bottom));
-  background: rgba(255, 255, 255, 0.86);
+  background: #fff;
   border-top: 1px solid rgba(215, 25, 32, 0.12);
-  backdrop-filter: blur(22px);
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
   box-shadow: 0 -14px 34px rgba(61, 39, 24, 0.08);
 }
 
