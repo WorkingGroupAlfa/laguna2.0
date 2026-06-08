@@ -84,12 +84,9 @@ a {
 .app-shell::before,
 .app-shell::after {
   content: "";
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  width: min(100%, 520px);
-  transform: translateX(-50%);
+  position: absolute;
+  inset: 0;
+  width: 100%;
   pointer-events: none;
   opacity: 0;
   transition: opacity 0.24s ease;
@@ -724,7 +721,6 @@ h3 {
   border-right: 0;
   border-bottom: 0;
   box-shadow: 0 -8px 22px rgba(114, 68, 36, 0.08);
-  backdrop-filter: blur(10px);
   line-height: 1.08;
 }
 
