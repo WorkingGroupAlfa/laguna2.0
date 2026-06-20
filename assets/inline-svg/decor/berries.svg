@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="dish-decor" viewBox="0 0 92 88" aria-hidden="true">
+      <path d="M25 57c8-24 27-36 51-31-8 24-27 35-51 31Z" fill="#60c36f" stroke="#246e3b" stroke-linejoin="round" stroke-width="3"/>
+      <circle cx="31" cy="36" r="10" fill="#ef233c" stroke="#8a3d1d" stroke-width="2.5"/>
+      <circle cx="48" cy="51" r="12" fill="#c93f6b" stroke="#6e173d" stroke-width="2.5"/>
+      <circle cx="63" cy="34" r="9" fill="#ff7b72" stroke="#8a3d1d" stroke-width="2.5"/>
+      <path d="M25 74c17-5 31-5 44 0" fill="none" stroke="#8a5a28" stroke-linecap="round" stroke-width="4"/>
+    </svg>

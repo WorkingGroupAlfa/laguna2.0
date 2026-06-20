@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="dish-decor" viewBox="0 0 96 78" aria-hidden="true">
+      <path d="M18 39h60c-3 22-14 31-30 31S21 61 18 39Z" fill="#fff7e8" stroke="#8a5a28" stroke-width="3"/>
+      <path d="M25 46h46" stroke="#f9a03f" stroke-linecap="round" stroke-width="5"/>
+      <path d="M35 30c-7-8 7-10 0-20M50 30c-7-8 7-10 0-20M65 30c-7-8 7-10 0-20" fill="none" stroke="#7fd8d0" stroke-linecap="round" stroke-width="4"/>
+    </svg>

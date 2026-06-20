@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="dish-decor" viewBox="0 0 86 86" aria-hidden="true">
+      <circle cx="43" cy="45" r="27" fill="#ef233c" stroke="#8a3d1d" stroke-width="3"/>
+      <path d="M43 20c6 10 10 18 0 50M20 45h46M28 28c10 7 20 8 30 0" fill="none" stroke="#ffb3a6" stroke-linecap="round" stroke-width="2.2"/>
+      <path d="M42 18c-4-8 3-13 10-8 8-5 15 2 8 10-7-2-12-2-18-2Z" fill="#55b96a" stroke="#246e3b" stroke-linejoin="round" stroke-width="2.3"/>
+    </svg>

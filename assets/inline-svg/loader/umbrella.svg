@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="ll-umbrella" viewBox="0 0 120 110" aria-hidden="true">
+        <g transform="rotate(-8 60 100)">
+          <ellipse cx="60" cy="103" rx="17" ry="4" fill="rgba(60,42,24,.18)"/>
+          <line x1="60" y1="46" x2="60" y2="100" stroke="#B98A5E" stroke-width="5" stroke-linecap="round"/>
+          <path d="M60 100 q9 0 9 -8" fill="none" stroke="#B98A5E" stroke-width="5" stroke-linecap="round"/>
+          <path d="M12 50 Q60 -2 108 50 Q60 64 12 50 Z" fill="#D43329"/>
+          <circle cx="60" cy="9" r="4.5" fill="#B5241B"/>
+        </g>
+      </svg>

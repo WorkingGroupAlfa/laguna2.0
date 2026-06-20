@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="dish-decor" viewBox="0 0 96 82" aria-hidden="true">
+      <path d="M15 61c11-35 39-51 68-43-9 31-38 47-68 43Z" fill="#63bf72" stroke="#246e3b" stroke-linejoin="round" stroke-width="3"/>
+      <path d="M24 57c17-16 31-25 50-34" fill="none" stroke="#f4ffe7" stroke-linecap="round" stroke-width="3"/>
+      <circle cx="27" cy="26" r="11" fill="#ef233c" stroke="#8a3d1d" stroke-width="3"/>
+      <path d="M22 18c5-4 10-4 15 0" fill="none" stroke="#246e3b" stroke-linecap="round" stroke-width="3"/>
+    </svg>

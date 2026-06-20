@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="ll-starfish" viewBox="0 0 64 64" aria-hidden="true">
+    <path d="M32 3 L41 24 L63 24 L45 38 L52 60 L32 47 L12 60 L19 38 L1 24 L23 24 Z" fill="#E8964A" stroke="#CE7B33" stroke-width="2.5" stroke-linejoin="round"/>
+    <g fill="#fff" opacity=".85"><circle cx="32" cy="30" r="2.4"/><circle cx="27" cy="38" r="1.8"/><circle cx="37" cy="38" r="1.8"/><circle cx="32" cy="22" r="1.8"/></g>
+  </svg>

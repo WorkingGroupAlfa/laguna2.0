@@ -1381,6 +1381,21 @@ h3 {
   font-weight: 950;
 }
 
+.beach-price-stack {
+  display: grid;
+  justify-items: end;
+  gap: 3px;
+  min-width: 58px;
+}
+
+.beach-price-stack span {
+  color: #8a6b5a;
+  font-size: 0.72rem;
+  font-weight: 900;
+  line-height: 1.05;
+  white-space: nowrap;
+}
+
 .beach-rate-card strong::after {
   content: "";
   font-size: 0.72rem;
