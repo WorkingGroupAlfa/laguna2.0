@@ -1386,7 +1386,9 @@ h3 {
   display: grid;
   justify-items: end;
   gap: 3px;
-  min-width: 58px;
+  min-width: 70px;
+  max-width: 150px;
+  text-align: right;
 }
 
 .beach-price-stack span {
@@ -1395,6 +1397,10 @@ h3 {
   font-weight: 900;
   line-height: 1.05;
   white-space: nowrap;
+}
+
+.beach-price-stack .beach-price-note {
+  white-space: normal;
 }
 
 .beach-rate-card strong::after {
