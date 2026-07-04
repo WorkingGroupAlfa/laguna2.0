@@ -8,7 +8,7 @@ const MENU_DATA = [
       },
       {
         "name": "Круасан із лососем і гуакамоле",
-        "price": "390"
+        "price": "450"
       },
       {
         "name": "Круасан із ніжною телятиною",
@@ -37,7 +37,7 @@ const MENU_DATA = [
     "items": [
       {
         "name": "Фірмовий салат з морепродуктами",
-        "price": "750"
+        "price": "840"
       },
       {
         "name": "Салат із баклажаном і телятиною",
@@ -49,7 +49,7 @@ const MENU_DATA = [
       },
       {
         "name": "Буррата з томатами",
-        "price": "705"
+        "price": "470"
       },
       {
         "name": "Овочевий салат з артишоками",
@@ -71,7 +71,7 @@ const MENU_DATA = [
       },
       {
         "name": "Моцарела фрі з ягідним соусом",
-        "price": "310"
+        "price": "390"
       },
       {
         "name": "Нагетси із сирним соусом",
@@ -88,6 +88,14 @@ const MENU_DATA = [
       {
         "name": "Спрінг-роли з качкою",
         "price": "320"
+      },
+      {
+        "name": "Пивний сет",
+        "price": "550"
+      },
+      {
+        "name": "Пивна креветка",
+        "price": "470"
       }
     ]
   },
@@ -117,7 +125,7 @@ const MENU_DATA = [
       {
         "name": "Прошутто",
         "description": "Соус маргарита, моцарела, пармезан, чері, прошутто, рукола.",
-        "price": "470"
+        "price": "580"
       },
       {
         "name": "Груша & Дор-блю",
@@ -127,12 +135,17 @@ const MENU_DATA = [
       {
         "name": "Морська",
         "description": "Вершковий соус, моцарела, пармезан, тигрова креветка, кальмари, лосось.",
-        "price": "490"
+        "price": "620"
       },
       {
         "name": "Курка теріякі",
         "description": "Моцарела, курка теріякі, цибуля зелена, пармезан, трюфельний соус.",
         "price": "450"
+      },
+      {
+        "name": "Бурата",
+        "description": "Соус маргарита, моцарела, мікс, бурата.",
+        "price": "610"
       }
     ]
   },
@@ -145,7 +158,7 @@ const MENU_DATA = [
       },
       {
         "name": "Сирний крем-суп",
-        "price": "400"
+        "price": "420"
       },
       {
         "name": "Гострий суп із креветками та кальмарами",
@@ -158,15 +171,15 @@ const MENU_DATA = [
     "items": [
       {
         "name": "Плато морепродуктів на грилі",
-        "price": "890"
+        "price": "1200"
       },
       {
         "name": "Ніжні реберця з бататом фрі",
-        "price": "720"
+        "price": "990"
       },
       {
         "name": "Медальйони з телятини",
-        "price": "790"
+        "price": "950"
       },
       {
         "name": "Мідії у вершковому соусі",
@@ -203,11 +216,11 @@ const MENU_DATA = [
       },
       {
         "name": "Морозиво",
-        "price": "150"
+        "price": "200"
       },
       {
         "name": "Ягоди",
-        "price": "100"
+        "price": "150"
       }
     ]
   },
@@ -234,7 +247,7 @@ const MENU_DATA = [
       {
         "name": "Aqua Panna",
         "volume": "0,75 л",
-        "price": "270"
+        "price": "280"
       },
       {
         "name": "Perrier",
@@ -245,6 +258,11 @@ const MENU_DATA = [
         "name": "Borjomi",
         "volume": "0,33 л",
         "price": "220"
+      },
+      {
+        "name": "Morshynskaya",
+        "volume": "0,33 л",
+        "price": "135"
       }
     ]
   },
@@ -293,7 +311,7 @@ const MENU_DATA = [
       },
       {
         "name": "Матча манго / полуниця",
-        "price": "250"
+        "price": "270"
       }
     ]
   },
@@ -316,7 +334,7 @@ const MENU_DATA = [
       {
         "name": "Vitamin Bomb",
         "description": "Апельсиновий фреш, грейпфрутовий фреш, свіжа м’ята.",
-        "price": "240"
+        "price": "260"
       },
       {
         "name": "Mojito",
@@ -331,12 +349,12 @@ const MENU_DATA = [
       {
         "name": "Hugo",
         "description": "Лайм, м’ята, газована вода, сироп бузини.",
-        "price": "220"
+        "price": "330"
       },
       {
         "name": "Apple Sour",
         "description": "Чай анчан, цукор, яблучне пюре, лимонний фреш, Easy Foam.",
-        "price": "180"
+        "price": "220"
       },
       {
         "name": "Banana Sour",
@@ -373,12 +391,12 @@ const MENU_DATA = [
       {
         "name": "Виноград-Анчан",
         "description": "Чай анчан, сік винограду, м’ята, цукор.",
-        "price": "210"
+        "price": "250"
       },
       {
         "name": "Малина грейпфрут",
         "description": "Чорний чай, сироп малини, сироп грейпфруту, м’ята, цукор.",
-        "price": "210"
+        "price": "250"
       }
     ]
   },
@@ -393,7 +411,7 @@ const MENU_DATA = [
       {
         "name": "Choco-Bear",
         "description": "Шоколадне морозиво, вершки, молоко, какао, бананове пюре.",
-        "price": "270"
+        "price": "340"
       }
     ]
   },
@@ -423,7 +441,7 @@ const MENU_DATA = [
       {
         "name": "Long Island",
         "description": "Текіла, горілка, ром, джин, тріпл сек, кола.",
-        "price": "310"
+        "price": "340"
       },
       {
         "name": "Banana Sour",
@@ -431,7 +449,7 @@ const MENU_DATA = [
       },
       {
         "name": "Tequila Kiss",
-        "price": "305"
+        "price": "340"
       },
       {
         "name": "Whiskey Sour",
@@ -439,7 +457,7 @@ const MENU_DATA = [
       },
       {
         "name": "Fiero Colada",
-        "price": "290"
+        "price": "350"
       },
       {
         "name": "Tom Collins",
@@ -505,31 +523,42 @@ const MENU_DATA = [
         "name": "Pinot Grigio Italy",
         "volume": "125 мл",
         "description": "Бокал вина.",
-        "price": "155"
+        "price": "180"
       },
       {
         "name": "Sauvignon Blanc New Zealand",
         "volume": "125 мл",
         "description": "Бокал вина.",
-        "price": "250"
+        "price": "280"
       },
       {
         "name": "Chianti Italy",
         "volume": "125 мл",
         "description": "Бокал вина.",
-        "price": "240"
+        "price": "290"
       },
       {
         "name": "Primitivo Italy",
         "volume": "125 мл",
         "description": "Бокал вина.",
-        "price": "260"
+        "price": "290"
       },
       {
         "name": "Pinot Grigio Rose Italy",
         "volume": "125 мл",
         "description": "Бокал вина.",
-        "price": "170"
+        "price": "240"
+      },
+      {
+        "name": "Vina Esmeralda",
+        "description": "Біле вино.",
+        "price": "1500"
+      },
+      {
+        "name": "Vina Esmeralda",
+        "volume": "125 мл",
+        "description": "Бокал вина.",
+        "price": "290"
       }
     ]
   },
@@ -539,7 +568,12 @@ const MENU_DATA = [
       {
         "name": "Розливне",
         "volume": "0,33 / 0,5 л",
-        "price": "120 / 160"
+        "price": "140 / 180"
+      },
+      {
+        "name": "Kronenbourg Blanc",
+        "volume": "0,33 / 0,5 л",
+        "price": "165 / 195"
       },
       {
         "name": "Пляшкове",
@@ -565,6 +599,11 @@ const MENU_DATA = [
         "name": "Aperol Spritz",
         "description": "Апероль, просекко, содова.",
         "price": "370"
+      },
+      {
+        "name": "Prosecco Extra Dry",
+        "volume": "125 мл",
+        "price": "210"
       },
       {
         "name": "Hugo",
@@ -697,13 +736,13 @@ const MENU_DATA = [
         "name": "Hendrick’s",
         "volume": "40 мл",
         "description": "Джин.",
-        "price": "280"
+        "price": "310"
       },
       {
         "name": "Chateau de Montifaud",
         "volume": "40 мл",
         "description": "Коньяк.",
-        "price": "370"
+        "price": "450"
       },
       {
         "name": "Jameson",
@@ -727,7 +766,7 @@ const MENU_DATA = [
         "name": "Aberfeldy 12 Y.O",
         "volume": "40 мл",
         "description": "Віскі.",
-        "price": "320"
+        "price": "450"
       },
       {
         "name": "Macallan 12 Y.O",
