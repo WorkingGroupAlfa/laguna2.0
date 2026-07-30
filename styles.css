@@ -1332,6 +1332,29 @@ h3 {
   color: rgba(255, 255, 255, 0.9);
 }
 
+.beach-hero-panel .beach-hours {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  width: fit-content;
+  margin-top: 16px;
+  padding: 8px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.32);
+  border-radius: 999px;
+  color: #fff;
+  background: rgba(73, 94, 28, 0.82);
+  box-shadow: 0 10px 24px rgba(31, 41, 11, 0.2);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+}
+
+.beach-hours strong {
+  color: #fff;
+  font-size: 0.88rem;
+  font-weight: 950;
+}
+
 .beach-rates {
   display: grid;
   gap: 12px;
@@ -1384,14 +1407,18 @@ h3 {
 
 .beach-price-stack {
   display: grid;
-  justify-items: end;
-  gap: 3px;
-  min-width: 70px;
-  max-width: 150px;
-  text-align: right;
+  gap: 7px;
+  min-width: 112px;
 }
 
-.beach-price-stack span {
+.beach-price-row {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.beach-price-row > span {
   color: #8a6b5a;
   font-size: 0.72rem;
   font-weight: 900;
@@ -1399,14 +1426,62 @@ h3 {
   white-space: nowrap;
 }
 
-.beach-price-stack .beach-price-note {
-  white-space: normal;
+.beach-price-row strong {
+  justify-self: end;
+  white-space: nowrap;
+}
+
+.beach-price-row small {
+  font-size: 0.66rem;
+  font-weight: 900;
 }
 
 .beach-rate-card strong::after {
   content: "";
   font-size: 0.72rem;
   font-weight: 900;
+}
+
+.beach-details {
+  display: grid;
+  gap: 10px;
+  margin-top: 12px;
+  padding: 14px;
+  border: 1px solid rgba(153, 91, 60, 0.12);
+  border-radius: var(--radius-lg);
+  background: rgba(255, 248, 239, 0.9);
+  box-shadow: var(--shadow);
+}
+
+.beach-details p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.86rem;
+  font-weight: 750;
+  line-height: 1.35;
+}
+
+.beach-details a {
+  color: var(--red);
+  font-weight: 900;
+}
+
+.beach-detail-icon {
+  display: grid;
+  flex: 0 0 auto;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, rgba(246, 234, 215, 0.92), rgba(223, 246, 251, 0.72));
+}
+
+.beach-detail-icon .ui-icon {
+  width: 22px;
+  height: 22px;
 }
 
 .bottom-nav {
@@ -1461,6 +1536,16 @@ h3 {
 
   .recommend-card {
     min-height: 170px;
+  }
+}
+
+@media (max-width: 380px) {
+  .beach-rate-card {
+    grid-template-columns: auto minmax(0, 1fr);
+  }
+
+  .beach-price-stack {
+    grid-column: 2;
   }
 }
 
